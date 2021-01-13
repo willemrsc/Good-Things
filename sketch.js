@@ -7,7 +7,10 @@ function setup() {
 
 function draw() {
   noErase();
-  fill(235, 64, 52);
+ 
+ // fill(235, 64, 52);
+  
+  fill(255, 255, 255);
 
  var janEleven = {
    a : 'ate tomatoes',
