@@ -10,7 +10,9 @@ function draw() {
   fill(235, 64, 52);
 
 var date = [
-
+  
+  '01.17.21',
+  '01.16.21',
   '01.15.21',
   '01.14.21',
   '01.13.21',
@@ -21,6 +23,8 @@ var date = [
 
 var first = [
 
+  'texted with Mark',
+  'walked in Centreal Park',
   'Austin got an internship at slack',
   'made potstickers for lunch',
   'experimented with liming oak',
@@ -30,7 +34,9 @@ var first = [
 ];
 
 var second = [
-
+  
+  'excercised and felt great',
+  'talked to Andreas about jobs',
   'ate excellent pizza',
   'caught up with Soren',
   'made pupusas',
@@ -40,6 +46,8 @@ var second = [
 ];
 var third = [
 
+  'cooked scalloped potatoes',
+  'Looked at new job offerings',
   'had an Austrian beer',
   'made a spreadsheet',
   'talked with dad',
