@@ -71,9 +71,9 @@ var third = [
   text(date[index],20,20, windowWidth/4, windowHeight/4);
   rectMode(CENTER);
   textAlign(CENTER,CENTER);
-  text(first[index],windowWidth/2,windowHeight/2-windowHeight/4, windowWidth/4, windowHeight/4);
-  text(second[index],windowWidth/2,windowHeight/2, windowWidth/4, windowHeight/4);
-  text(third[index],windowWidth/2,windowHeight/2+windowHeight/4, windowWidth/4, windowHeight/4);
+  text(first[index],windowWidth/2,windowHeight/2-windowHeight/4, windowWidth/2, windowHeight/2);
+  text(second[index],windowWidth/2,windowHeight/2, windowWidth/2, windowHeight/2);
+  text(third[index],windowWidth/2,windowHeight/2+windowHeight/4, windowWidth/2, windowHeight/2);
 
   erase();
   drawingContext.shadowBlur = 6;
