@@ -10,7 +10,8 @@ function draw() {
   fill(235, 64, 52);
 
 var date = [
-  
+  '01.21.21',
+  '01.20.21',
   '01.19.21',
   '01.18.21',
   '01.17.21',
@@ -25,6 +26,8 @@ var date = [
 
 var first = [
   
+  'did a suit fitting with David on facetime',
+  'made chicken liver pâté',
   'brainstormed beer labels with Isaac',
   'finished brushing oak shelves',
   'texted with Mark',
@@ -39,6 +42,8 @@ var first = [
 
 var second = [
   
+  'got to know Mark a little more',
+  'cleaned off my desk',
   'might get a furniture design independent study',
   'learned how to make chicken liver pâté',
   'excercised and felt great',
@@ -52,6 +57,8 @@ var second = [
 ];
 var third = [
 
+  'chatted with Ben on zoom about furniture design',
+  'the inauguration!!!',
   'Game of Thrones: Arya just killed the Night King',
   'cast iron cooked a perfect spider steak',
   'cooked scalloped potatoes',
@@ -71,9 +78,9 @@ var third = [
   text(date[index],20,20, windowWidth/4, windowHeight/4);
   rectMode(CENTER);
   textAlign(CENTER,CENTER);
-  text(first[index],windowWidth/2,windowHeight/2-windowHeight/4, windowWidth/2, windowHeight/2);
-  text(second[index],windowWidth/2,windowHeight/2, windowWidth/2, windowHeight/2);
-  text(third[index],windowWidth/2,windowHeight/2+windowHeight/4, windowWidth/2, windowHeight/2);
+  text(first[index],windowWidth/2,windowHeight/2-windowHeight/4, width/2, height/2);
+  text(second[index],windowWidth/2,windowHeight/2, width/2, height/2);
+  text(third[index],windowWidth/2,windowHeight/2+windowHeight/4, width/2, height/2);
 
   erase();
   drawingContext.shadowBlur = 6;
