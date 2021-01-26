@@ -10,6 +10,10 @@ function draw() {
   fill(235, 64, 52);
 
 var date = [
+  '01.25.21',
+  '01.24.21',
+  '01.23.21',
+  '01.22.21',
   '01.21.21',
   '01.20.21',
   '01.19.21',
@@ -25,7 +29,10 @@ var date = [
 ];
 
 var first = [
-  
+  'had digital lunch with Sam',
+  'grocery shopped at a relaxed hour of the morning',
+  'ate some clothbound cheddar',
+  'finished Game of Thrones!',
   'did a suit fitting with David on facetime',
   'made chicken liver pâté',
   'brainstormed beer labels with Isaac',
@@ -41,7 +48,10 @@ var first = [
 ];
 
 var second = [
-  
+  'my new cast iron pan is getting well seasoned',
+  'had a draft home brew!',
+  'walked with Vic in Central Park',
+  'ate biryani and tikka paneer',
   'got to know Mark a little more',
   'cleaned off my desk',
   'might get a furniture design independent study',
@@ -56,7 +66,10 @@ var second = [
 
 ];
 var third = [
-
+  'talked to my mom and her friend Anne on the phone',
+  'cooked falafel and eggplant caviar',
+  'drank a Greenport Harbor Otherside IPA',
+  'working on my AutoCad skills',
   'chatted with Ben on zoom about furniture design',
   'the inauguration!!!',
   'Game of Thrones: Arya just killed the Night King',
